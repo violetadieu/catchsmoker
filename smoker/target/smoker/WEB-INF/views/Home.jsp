@@ -14,7 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>간단한 지도 표시하기</title>
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=JOC6PQf2Bk0n6ETFpPte"></script>
-
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 </head>
 <body>
 <div id="map" style="width:80%;height:400px;"></div>
@@ -31,7 +32,7 @@
             position: gate
         });
 
-    var contentString = ['후우우우무우우우우운'].join('');
+    var contentString = ['후문담배길빵 ㄴㄴ'].join('');
 
     var infowindow = new naver.maps.InfoWindow({
         content: contentString
