@@ -1,4 +1,4 @@
-package com.Home;
+/*package com.Home;
 
 
 import org.springframework.stereotype.Controller;
@@ -15,3 +15,4 @@ public class HomeController {
     }
 
 }
+*/

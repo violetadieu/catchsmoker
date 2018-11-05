@@ -4,16 +4,7 @@
 <mapper namespace="sample">
 
     <select id="selectBoardList" parameterType="hashmap" resultType="hashmap">
-        <![CDATA[
-            SELECT
-                IDX,
-                point_x,
-                point_y,
-                nicotin
-            FROM
-                mise
-            ORDER BY IDX DESC
-        ]]>
+        SELECT NOW()
     </select>
 
 </mapper>
