@@ -6,6 +6,7 @@
         <fileset id="fileset" name="Dispatcher Servlet" removed="false">
           <file>file://$MODULE_DIR$/smoker/src/main/webapp/WEB-INF/spring-config/dispatcher-servlet.xml</file>
           <file>file://$MODULE_DIR$/smoker/src/main/webapp/WEB-INF/spring-config/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/smoker/src/main/resources/config/spring/context-datasource.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -26,8 +27,8 @@
       <sourceFolder url="file://$MODULE_DIR$/smoker/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/smoker/src/main/resources" type="java-resource" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Spring-4.3.18.RELEASE" level="project" />
   </component>
 </module>
