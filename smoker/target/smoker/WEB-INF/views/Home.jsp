@@ -49,6 +49,10 @@
             infowindow.close();
         } else {
             infowindow.open(map, marker);
+            $('.dust').text("aaaaaaaa");
+            $('.id_street').text("aaaaaaaaaa");
+            $('.smoking_person').text("aaaaaaaa");
+            $('.address').text("aaaaaaaa");
         }
     });
 
@@ -98,13 +102,17 @@
             infowindow_hatak.close();
         } else {
             infowindow_hatak.open(map, marker_hatak);
+            $('.dust').text("bbbbbbb");
+            $('.id_street').text("bbbbbbbb");
+            $('.smoking_person').text("bbbbbbb");
+            $('.address').text("bbbbbbb");
         }
     });
 
     infowindow_hatak.open(map, marker_hatak);
 
 </script>
-<div>
+<div style="display: inline-block">
     선택 마커 주변 정보<br>
     미세먼지:<p class="dust"></p>
     주소:<p class="address"></p>
