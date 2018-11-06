@@ -20,8 +20,7 @@
 </head>
 <body style="align-content: center;padding-left: 20%;padding-top: 10%;">
 <div id="map" style="width:80%;height:400px;"></div>
-<c:forEach items="${list }" var="row">
-</c:forEach>
+
     <script>
         var dust_value=0;
         var id_street=0;
@@ -113,6 +112,9 @@
 
 </script>
 <div style="display: inline-block">
+    <c:forEach items="${list }" var="row">
+        ${row.point_x};
+    </c:forEach>
     선택 마커 주변 정보<br>
     미세먼지:<p class="dust"></p>
     주소:<p class="address"></p>
