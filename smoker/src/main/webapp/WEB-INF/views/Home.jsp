@@ -14,18 +14,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>간단한 지도 표시하기</title>
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=JOC6PQf2Bk0n6ETFpPte"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 </head>
-<body>
+<body style="align-content: center;padding-left: 20%;padding-top: 10%;">
 <div id="map" style="width:80%;height:400px;"></div>
-
-<script>
+<c:forEach items="${list }" var="row">
+</c:forEach>
+    <script>
+        var dust_value=0;
+        var id_street=0;
+        var smoking_person=0;
+        var address="a";
     //후문 정보창
     var gate = new naver.maps.LatLng(37.451084, 126.656507),
         map = new naver.maps.Map('map', {
-            center: gate.destinationPoint(0, 500),
-            zoom: 13
+            center: gate.destinationPoint(0, 0),
+            zoom: 12
         }),
         marker = new naver.maps.Marker({
             map: map,
@@ -66,6 +72,10 @@
             infowindow_5ho.close();
         } else {
             infowindow_5ho.open(map, marker_5ho);
+            $('.dust').text(dust_value);
+            $('.id_street').text(id_street);
+            $('.smoking_person').text(smoking_person);
+            $('.address').text(address);
         }
     });
 
@@ -92,20 +102,14 @@
     });
 
     infowindow_hatak.open(map, marker_hatak);
-/*
-    var marker = new naver.maps.Marker({//후문
-        position: new naver.maps.LatLng(37.451084, 126.656507),
-        map: map
-    });
-    var marker = new naver.maps.Marker({//하텍 저층부
-        position: new naver.maps.LatLng(37.450428, 126.657686),
-        map: map
-    });
-    var marker = new naver.maps.Marker({//5호관, 60주년 사이
-        position: new naver.maps.LatLng(37.450897, 126.653963),
-        map: map
-    });
-*/
+
 </script>
+<div>
+    선택 마커 주변 정보<br>
+    미세먼지:<p class="dust"></p>
+    주소:<p class="address"></p>
+    가로등 번호:<p class="id_street"></p>
+    흡연자 수:<p class ="smoking_person"></p>
+</div>
 </body>
 </html>

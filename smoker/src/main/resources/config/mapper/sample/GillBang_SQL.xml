@@ -7,7 +7,9 @@
         SELECT
         point_x,
         point_y,
-
+        nicotin
+        FROM
+        gil_bbang.bbang
     </select>
 
 </mapper>
