@@ -4,7 +4,10 @@
 <mapper namespace="sample">
 
     <select id="selectBoardList" parameterType="hashmap" resultType="hashmap">
-        SELECT NOW()
+        SELECT
+        point_x,
+        point_y,
+
     </select>
 
 </mapper>
