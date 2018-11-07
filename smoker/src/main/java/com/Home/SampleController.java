@@ -9,6 +9,7 @@ import javax.annotation.Resource;
 import com.service.SmokeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import com.service.SmokeService;
 @Controller
@@ -18,13 +19,13 @@ public class SampleController {
     @Resource(name="smokeService")
     private SmokeService smokeService;
 
-    @RequestMapping(value="/")
-    public String openSampleBoardList(Map<String,Object> commandMap) throws Exception{
-        ModelAndView mv = new ModelAndView("views/Home");
+    @RequestMapping(value="/",method = RequestMethod.POST )
+    public ModelAndView openSampleBoardList(Map<String,Object> commandMap) throws Exception{
+        ModelAndView mv = new ModelAndView("Home");
 
         List<Map<String,Object>> list = smokeService.selectBoardList(commandMap);
         mv.addObject("list", list);
 
-        return "Home";
+        return mv;
     }
 }

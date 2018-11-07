@@ -4,7 +4,12 @@
 <mapper namespace="sample">
 
     <select id="selectBoardList" parameterType="hashmap" resultType="hashmap">
-        SELECT * FROM gil_bbang.bbang;
+        <![CDATA[
+            SELECT
+                *
+            FROM
+                gil_bbang.gil_bbang;
+        ]]>
     </select>
 
 </mapper>
