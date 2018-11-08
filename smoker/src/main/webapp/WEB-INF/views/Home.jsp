@@ -31,7 +31,7 @@
         //순서맞추기 위한 임시 값
         marker_x.push(0);
         marker_y.push(0);
-        <c:forEach items="${list }" var="row">
+        <c:forEach items="${lis }" var="row">
         marker_x.push(${row.point_x });
         marker_y.push(${row.point_y });
         </c:forEach>
@@ -39,11 +39,11 @@
         var id_street=0;
         var smoking_person=0;
         var address="a";
-        marker_x.push(37.451084);
+        /*marker_x.push(37.451084);
         marker_y.push(126.656507);
         marker_x.push(37.572662);
         marker_y.push(126.970205);
-
+*/
         for(var i=1;i<3;i++){
             var marker = new naver.maps.Marker({
                 position: new naver.maps.LatLng(marker_x[i], marker_y[i]),

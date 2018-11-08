@@ -6,9 +6,11 @@
     <select id="selectBoardList" parameterType="hashmap" resultType="hashmap">
         <![CDATA[
             SELECT
-                *
+                street_id,
+                point_x,
+                point_y
             FROM
-                gil_bbang.gil_bbang;
+                gil_bbang;
         ]]>
     </select>
 

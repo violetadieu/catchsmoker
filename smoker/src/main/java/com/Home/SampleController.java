@@ -19,12 +19,12 @@ public class SampleController {
     @Resource(name="smokeService")
     private SmokeService smokeService;
 
-    @RequestMapping(value="/",method = RequestMethod.POST )
+    @RequestMapping(value="/",method = RequestMethod.GET )
     public ModelAndView openSampleBoardList(Map<String,Object> commandMap) throws Exception{
         ModelAndView mv = new ModelAndView("Home");
 
         List<Map<String,Object>> list = smokeService.selectBoardList(commandMap);
-        mv.addObject("list", list);
+        mv.addObject("lis", list);
 
         return mv;
     }
