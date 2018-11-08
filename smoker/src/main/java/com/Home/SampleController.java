@@ -24,7 +24,7 @@ public class SampleController {
         ModelAndView mv = new ModelAndView("Home");
 
         List<Map<String,Object>> list = smokeService.selectBoardList(commandMap);
-        mv.addObject("lis", list);
+        mv.addObject("list", list);
 
         return mv;
     }

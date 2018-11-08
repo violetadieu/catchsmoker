@@ -25,37 +25,39 @@
             center: new naver.maps.LatLng(37.451084, 126.656507),
             zoom: 13
         });
+        var mark=new Array();
         var marker_x=new Array();
         var marker_y=new Array();
-        var mark=new Array();
+        var nicotin=new Array();
         //순서맞추기 위한 임시 값
+        mark.push(0);
         marker_x.push(0);
         marker_y.push(0);
-        <c:forEach items="${lis }" var="row">
+        <c:forEach items="${list }" var="row">
         marker_x.push(${row.point_x });
         marker_y.push(${row.point_y });
+        nicotin.push(${row.nicotin});
         </c:forEach>
-        var dust_value=2;
+        var dust_value=36.5949821;
         var id_street=0;
         var smoking_person=0;
         var address="a";
-        /*marker_x.push(37.451084);
-        marker_y.push(126.656507);
-        marker_x.push(37.572662);
-        marker_y.push(126.970205);
-*/
-        for(var i=1;i<3;i++){
+
+        for(var i=1;i<marker_x.length;i++) {
             var marker = new naver.maps.Marker({
                 position: new naver.maps.LatLng(marker_x[i], marker_y[i]),
                 map: map
             });
             mark.push(marker);
         }
-        for(var k=1;k<3;k++){
-            naver.maps.Event.addListener(marker[k], "click", function(e) {
-                $('.address').text(marker_x[k]);
+        var m;
+        for(m=1;m<marker_x.length;m++){
+            var tmp=marker_x[m];
+            naver.maps.Event.addListener(mark[m], "click", function(t) {
+                $('.address').text(tmp);
             });
         }
+        m=0;
 </script>
 <div style="display: inline-block">
     선택 마커 주변 정보<br>
