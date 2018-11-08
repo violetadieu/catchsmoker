@@ -8,7 +8,8 @@
             SELECT
                 street_id,
                 point_x,
-                point_y
+                point_y,
+                nicotin
             FROM
                 gil_bbang;
         ]]>

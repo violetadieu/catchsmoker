@@ -109,7 +109,7 @@
     <session id="-1013515081">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -121,8 +121,9 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -131,7 +132,7 @@
           <entry key="java" value="23" />
           <entry key="jsp" value="5" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="26" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -140,25 +141,25 @@
           <entry key="JAVA" value="23" />
           <entry key="JSP" value="5" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="26" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="146" />
-          <entry key="jsp" value="3024" />
+          <entry key="jsp" value="3043" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="363" />
+          <entry key="xml" value="374" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5" />
           <entry key="JAVA" value="146" />
-          <entry key="JSP" value="3019" />
+          <entry key="JSP" value="3038" />
           <entry key="Properties" value="2" />
-          <entry key="SQL" value="19" />
-          <entry key="XML" value="344" />
+          <entry key="SQL" value="20" />
+          <entry key="XML" value="354" />
         </counts>
       </usages-collector>
     </session>
@@ -168,8 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="70" column="81" lean-forward="true" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
+            <state relative-caret-position="118">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -178,10 +179,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/mapper/sample/GillBang_SQL.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -189,8 +208,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/context-datasource.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="380">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -250,9 +269,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/context-datasource.xml" />
         <option value="$PROJECT_DIR$/target/classes/config/mapper/sample/GillBang_SQL.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/mapper/sample/GillBang_SQL.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Home/marking.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Home/SampleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/mapper/sample/GillBang_SQL.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Home.jsp" />
       </list>
     </option>
@@ -305,8 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -428,6 +445,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,17 +585,18 @@
       <workItem from="1541635731239" duration="8597000" />
       <workItem from="1541647692343" duration="3524000" />
       <workItem from="1541655049474" duration="6586000" />
+      <workItem from="1541664020781" duration="2469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71954000" />
+    <option name="totallyTimeSpent" value="74423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="992" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2588997" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.262945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -639,20 +659,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/mapper/a_SQL.sml.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/mapper/a_SQL.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -769,6 +775,13 @@
         <state relative-caret-position="-684" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/context-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Home/SampleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -776,24 +789,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/context-datasource.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="95">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/mapper/sample/GillBang_SQL.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="70" column="81" lean-forward="true" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
+        <state relative-caret-position="118">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
