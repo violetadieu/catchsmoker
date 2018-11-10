@@ -5,13 +5,11 @@
 
     <select id="selectBoardList" parameterType="hashmap" resultType="hashmap">
         <![CDATA[
-            SELECT
-                street_id,
-                point_x,
-                point_y,
-                nicotin
-            FROM
-                gil_bbang;
+            SELECT s.idx, map_x, map_y, picture, dust25, dust10, smoker, nicotin,  picture
+            FROM SLIGHT s,MISE m,SMOKE sm
+			WHERE s.idx=m.idx
+			AND m.idx=sm.idx
+
         ]]>
     </select>
 
