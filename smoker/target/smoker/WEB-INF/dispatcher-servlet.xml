@@ -8,8 +8,7 @@
     <mvc:annotation-driven/>
 
     <!--정적자원 매핑-->
-    <mvc:resources mapping="/resources/**" location="/"/>
-
+    <mvc:resources location="/" mapping="/**"/>
     <!--viewResolver 설정-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>

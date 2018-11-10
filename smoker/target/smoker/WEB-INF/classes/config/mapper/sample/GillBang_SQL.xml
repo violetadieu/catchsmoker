@@ -5,10 +5,10 @@
 
     <select id="selectBoardList" parameterType="hashmap" resultType="hashmap">
         <![CDATA[
-            SELECT s.idx, map_x, map_y, picture, dust25, dust10, smoker, nicotin,  picture
+            SELECT s.device, map_x, map_y, dust25, dust10, smoker,picture
             FROM SLIGHT s,MISE m,SMOKE sm
-			WHERE s.idx=m.idx
-			AND m.idx=sm.idx
+			WHERE s.device=m.device
+			AND m.device=sm.device
 
         ]]>
     </select>
