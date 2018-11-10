@@ -182,9 +182,7 @@
             }
         }
         function unvisible_circle() {
-            for(var i=0,ii=markers.length;i<ii;i++){
-                circles[i].radius=0;
-            }
+            window.location.reload()
         }
         for (var i=0, ii=markers.length; i<ii; i++) {
             naver.maps.Event.addListener(markers[i], 'click', getClickHandler(i));
