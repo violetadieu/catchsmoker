@@ -170,7 +170,7 @@
                     strokeColor: '#000000',
                     strokeOpacity: 0,
                     strokeWeight: 1,
-                    fillColor: '#000000',
+                    fillColor: '#f98e1b',
                     fillOpacity: 0.3,
                     center: position_1,
                     radius: MARKER_SPRITE_SMOKING_PEOPLE[i]*5,
