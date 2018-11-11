@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="smoker:war exploded" />
+      <artifact name="smoker:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb7f1f1c-e68c-482a-a739-8a023f788b4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/mapper/sample/GillBang_SQL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/mapper/sample/GillBang_SQL.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/mapper/sample/GillBang_SQL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/mapper/sample/GillBang_SQL.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smoker/WEB-INF/classes/config/mapper/sample/GillBang_SQL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/smoker/WEB-INF/classes/config/mapper/sample/GillBang_SQL.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smoker/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/smoker/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smoker/WEB-INF/views/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/smoker/WEB-INF/views/Home.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="eb7f1f1c-e68c-482a-a739-8a023f788b4e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +70,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="324" />
-          <entry key="jsp" value="3178" />
+          <entry key="jsp" value="3188" />
           <entry key="xml" value="563" />
         </counts>
       </usages-collector>
@@ -87,7 +78,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="324" />
-          <entry key="JSP" value="3177" />
+          <entry key="JSP" value="3187" />
           <entry key="SQL" value="19" />
           <entry key="XML" value="544" />
         </counts>
@@ -175,14 +166,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="181" column="13" lean-forward="true" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+            <state relative-caret-position="156">
+              <caret line="173" column="37" lean-forward="true" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -385,7 +378,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541894272611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541894748349" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -524,16 +517,15 @@
       <workItem from="1541664020781" duration="2469000" />
       <workItem from="1541815891808" duration="4110000" />
       <workItem from="1541822715944" duration="2211000" />
-      <workItem from="1541830768612" duration="27213000" />
+      <workItem from="1541830768612" duration="27473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107957000" />
+    <option name="totallyTimeSpent" value="108217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -748,14 +740,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="181" column="13" lean-forward="true" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+        <state relative-caret-position="156">
+          <caret line="173" column="37" lean-forward="true" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
