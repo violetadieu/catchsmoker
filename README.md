@@ -12,5 +12,12 @@ Maximum
 # Resources
 - server (DB, socket programming)
 - client (Sensor, Camera, socket programming)
-- deep learning
-- 3D modeling
+- deep learning (for search smoker)
+- 3D modeling (for case)
+
+# what we used
+- Raspberry Pi 3B+
+- Camera
+- MQ9, MQ135 sensor
+- PM 2.5, PM 10 sensor
+- server
