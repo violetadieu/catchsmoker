@@ -10,7 +10,7 @@
 Maximum
 
 # Resources
-- server (DB, socket programming)
+- server (DB(MYSQL), socket programming, spring framework)
 - client (Sensor, Camera, socket programming)
 - deep learning (for search smoker)
 - 3D modeling (for case)
